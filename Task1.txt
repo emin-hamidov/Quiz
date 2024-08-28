@@ -1,0 +1,9 @@
+create table Movie_info (
+Id int PRIMARY KEY AUTO_INCREMENT,
+Title varchar(50) not null,
+released date,
+director  varchar(50) not null,
+genre varchar (50)
+
+)
+
